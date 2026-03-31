@@ -1,3 +1,5 @@
+//src/app/admin-secret-933/page.js
+export const dynamic = "force-dynamic";
 "use client";
 
 import { useEffect, useState } from "react";
