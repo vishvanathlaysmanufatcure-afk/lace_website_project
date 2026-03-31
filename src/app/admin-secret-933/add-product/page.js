@@ -3,13 +3,10 @@
 import { useState } from "react";
 import { uploadImage } from "@/lib/cloudinary";
 import { addProduct } from "@/services/productService";
-import { useParams, useRouter, useSearchParams } from "next/navigation";
+import { useRouter} from "next/navigation";
 
 export default function AddProduct() {
   const router = useRouter();
-
-  const searchParams = useSearchParams();
-  const previousCategory = searchParams.get("category");
 
   const [category, setCategory] = useState("");
   const [categoryLabel, setCategoryLabel] = useState("Select the category");
@@ -78,11 +75,7 @@ export default function AddProduct() {
       });
 
       alert("Product Added");
-      router.push(
-        previousCategory
-          ? `/admin-secret-933?category=${previousCategory}`
-          : `/admin-secret-933`,
-      );
+      router.push("/admin-secret-933");
     } catch (error) {
       console.error(error);
       alert("Error uploading product");
