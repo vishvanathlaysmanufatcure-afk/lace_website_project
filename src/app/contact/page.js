@@ -95,11 +95,14 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="font-medium">Phone Number</p>
-                <a href="tel:9621932071" className="text-gray-600 block">
-                  +91-9621932071
-                </a>
                 <a href="tel:9016738889" className="text-gray-600 block">
                   +91-9016738889
+                </a>
+                <a href="tel:6387372844" className="text-gray-600 block">
+                  +91-6387372844
+                </a>
+                <a href="tel:9621932071" className="text-gray-600 block">
+                  +91-9621932071
                 </a>
               </div>
             </div>

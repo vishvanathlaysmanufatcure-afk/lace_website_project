@@ -82,7 +82,7 @@ export default function AboutPage() {
 
           <div className="space-y-6 text-gray-600 leading-relaxed">
             <p>
-              Founded in 2015 by master weaver K.R.Rameshkumar, Shree
+              Founded in 2015 by master weaver Rameshkumar, Shree
               Visaalakshi Lace began as a small unit crafting traditional cotton
               laces for local garment manufacturers in surat – India's textile
               capital.
