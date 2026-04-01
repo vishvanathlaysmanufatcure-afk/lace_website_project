@@ -16,7 +16,7 @@ export default function AboutPage() {
   return (
     <div className="bg-white">
       {/* ===== HERO SECTION ===== */}
-      <section className="max-w-6xl mx-auto px-4 md:px-8 py-20 lg:py-24 grid md:grid-cols-2 gap-10 items-center animate-fadeIn">
+      <section className="max-w-6xl mx-auto px-4 md:px-8 py-20 lg:py-30 grid md:grid-cols-2 gap-10 items-center animate-fadeIn">
         {/* LEFT */}
         <div>
           <p className="text-sm tracking-widest text-[#b8926a] mb-3">
@@ -29,7 +29,7 @@ export default function AboutPage() {
           </h1>
 
           <p className="text-gray-500 mt-6 leading-relaxed">
-            From a small workshop in Coimbatore to one of India's most trusted
+            From a small workshop in Surat to one of India's most trusted
             lace exporters — our journey is woven with dedication, craft, and a
             relentless pursuit of quality.
           </p>

@@ -7,7 +7,7 @@ export default function ServicesPage() {
   return (
     <div className="bg-white">
       {/* ================= HERO SECTION ================= */}
-      <section className="max-w-6xl mx-auto px-4 md:px-8 py-20 lg:py-24 grid md:grid-cols-2 gap-10 items-start">
+      <section className="max-w-6xl mx-auto px-4 md:px-8 py-20 lg:py-30 grid md:grid-cols-2 gap-10 items-start">
         {/* LEFT */}
         <div className="pt-2">
           <p className="text-sm tracking-widest text-[#b8926a] mb-3">
@@ -21,7 +21,7 @@ export default function ServicesPage() {
 
           <p className="text-gray-500 mt-6 leading-relaxed max-w-md">
             Seven lace varieties. Full manufacturing, custom design, and
-            worldwide export — all under one roof in Coimbatore.
+            worldwide export — all under one roof in Surat.
           </p>
 
           <Link href="/contact">

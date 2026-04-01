@@ -61,7 +61,7 @@ export default function CategoryPage() {
       <div className="max-w-8xl mx-auto px-2 lg:px-2">
         {/* Header */}
         <div
-          className="sticky top-[63px] md:top-[70px] z-40 
+          className="sticky top-[62px] md:top-[90px] z-40 
   bg-gray-100/90 backdrop-blur-md"
         >
           <div className="flex justify-between items-center py-3 mb-4">

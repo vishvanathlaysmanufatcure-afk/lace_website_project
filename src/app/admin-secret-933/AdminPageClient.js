@@ -109,10 +109,10 @@ export default function AdminPage() {
   }, []);
 
   return (
-    <div className="p-4 md:p-6 pt-[80px] md:pt-[90px] pb-10">
+    <div className="p-4 md:p-6 pt-[80px] md:pt-[100px] pb-10">
       
       {/* ✅ STICKY HEADER */}
-      <div className="sticky top-[63px] md:top-[70px] z-40 bg-white/90 backdrop-blur-md ">
+      <div className="sticky top-[63px] md:top-[90px] z-40 bg-white/90 backdrop-blur-md ">
         
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 py-3">
 

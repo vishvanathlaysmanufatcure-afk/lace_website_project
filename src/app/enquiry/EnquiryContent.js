@@ -104,7 +104,7 @@ export default function EnquiryPage() {
   const labelStyle = "block mb-1 text-sm font-semibold text-gray-700";
 
   return (
-    <div className="bg-gray-100 min-h-screen p-4 md:p-8 py-20 lg:py-24">
+    <div className="bg-gray-100 min-h-screen p-4 md:p-8 py-20 lg:py-30">
       <div className="max-w-5xl mx-auto bg-white/70 backdrop-blur-xl rounded-2xl shadow-xl p-6 md:p-8">
         {/* Title */}
         <h2 className="text-lg md:text-xl font-semibold mb-6">

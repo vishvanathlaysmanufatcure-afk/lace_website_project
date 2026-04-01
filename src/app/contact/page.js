@@ -58,7 +58,7 @@ export default function ContactPage() {
   return (
     <div className="bg-white min-h-screen">
       {/* HEADER (WHITE) */}
-      <div className="text-center py-8 py-20 lg:py-24 px-4 bg-white">
+      <div className="text-center py-8 py-20 lg:py-30 px-4 bg-white">
         <h1 className="text-3xl md:text-4xl font-bold">Contact Us</h1>
         <p className="text-gray-500 mt-3 max-w-xl mx-auto">
           Feel free to reach out to us for any inquiries, product details, or
