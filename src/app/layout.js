@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  title: "Shree Visaalakshi Lace | Lace Manufactur in Surat",
+  title: "Shree Visaalakshi Lace | Lace Manufacturer in Surat",
   description:
     "Shree Visaalakshi Lace is a premium lace manufacturer in Surat offering high-quality lace designs for garments and fashion industries.",
   keywords: [
@@ -25,6 +25,11 @@ export const metadata = {
     "lace company Gujarat",
     "Number one lace manufacturer in India",
   ],
+  icons: {
+    icon: "/images/svl_logo.png",
+    shortcut: "/images/svl_logo.png",
+    apple: "/images/svl_logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -39,7 +44,7 @@ export default function RootLayout({ children }) {
               "@type": "Organization",
               name: "Shree Visaalakshi Lace",
               url: "https://www.lacemanufactures.in",
-              logo: "https://www.lacemanufactures.in/images/logo.png",
+              logo: "https://www.lacemanufactures.in/images/svl_logo.png",
             }),
           }}
         />
