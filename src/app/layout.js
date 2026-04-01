@@ -1,3 +1,4 @@
+// app/layout.js
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -14,8 +15,16 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  title: "lace Manufacture",
-  description: "Manufacturing website",
+  title: "Shree Visaalakshi Lace | Lace Manufactur in Surat",
+  description:
+    "Shree Visaalakshi Lace is a premium lace manufacturer in Surat offering high-quality lace designs for garments and fashion industries.",
+  keywords: [
+    "Shree Visaalakshi Lace",
+    "lace manufacturer Surat",
+    "lace suppliers India",
+    "lace company Gujarat",
+    "Number one lace manufacturer in India",
+  ],
 };
 
 export default function RootLayout({ children }) {
