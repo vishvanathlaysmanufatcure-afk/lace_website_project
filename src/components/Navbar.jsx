@@ -41,7 +41,7 @@ export default function Navbar() {
           alt="logo"
           width={60}
           height={50}
-          className="md:w-[100px] md:h-[90px]"
+          className="md:w-[90px] md:h-[80px]"
         />
 
         {/* TEXT */}
