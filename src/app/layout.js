@@ -30,6 +30,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Shree Visaalakshi Lace",
+              url: "https://www.lacemanufactures.in",
+              logo: "https://www.lacemanufactures.in/images/logo.png",
+            }),
+          }}
+        />
+      </head>
+
       <body className={poppins.className}>
         <Navbar />
 
