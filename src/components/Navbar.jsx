@@ -36,10 +36,17 @@ export default function Navbar() {
     >
       {/* LOGO */}
       <div className="flex items-center gap-2 ml-auto">
-        <Image src="/images/svl_logo.png" alt="logo" width={100} height={90} />
+        <Image
+          src="/images/svl_logo.png"
+          alt="logo"
+          width={60}
+          height={50}
+          className="md:w-[100px] md:h-[90px]"
+        />
 
+        {/* TEXT */}
         <div className="flex flex-col leading-tight">
-          <span className="text-2xl font-semibold tracking-wide">
+          <span className="text-sm md:text-2xl font-semibold tracking-wide">
             Shree Visaalakshi Lace
           </span>
         </div>
