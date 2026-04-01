@@ -1,6 +1,4 @@
 //src/app/admin-secret-933/add-product/page.js
-export const dynamic = "force-dynamic";
-
 "use client";
 
 import { useState } from "react";
