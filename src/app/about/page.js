@@ -10,8 +10,8 @@ export default function AboutPage() {
 
   // 👉 Dynamic redirect function
   const handleProductClick = () => {
-  router.push("/products");
-};
+    router.push("/products");
+  };
 
   return (
     <div className="bg-white">
@@ -29,8 +29,8 @@ export default function AboutPage() {
           </h1>
 
           <p className="text-gray-500 mt-6 leading-relaxed">
-            From a small workshop in Surat to one of India's most trusted
-            lace exporters — our journey is woven with dedication, craft, and a
+            From a small workshop in Surat to one of India's most trusted lace
+            exporters — our journey is woven with dedication, craft, and a
             relentless pursuit of quality.
           </p>
 
@@ -82,28 +82,34 @@ export default function AboutPage() {
 
           <div className="space-y-6 text-gray-600 leading-relaxed">
             <p>
-              Founded in 2015 by master weaver Rameshkumar, Shree
-              Visaalakshi Lace began as a small unit crafting traditional cotton
-              laces for local garment manufacturers in surat – India's textile
-              capital.
+              Founded in 2015, Shree Visaalakshi Lace started as a small unit in
+              Surat, India’s textile hub, producing high-quality cotton laces
+              for local garment manufacturers.
             </p>
 
             <p>
-              Over two decades, we expanded our product range to include seven
-              distinct lace varieties and developed export channels to fashion
-              houses across Europe, Far-East, and Middle-East.
+              Over the years, we have expanded our product range to include a
+              variety of lace designs and established strong connections with
+              clients across India and all over the world.
             </p>
 
             <p>
-              Today, we operate a state-of-the-art manufacturing facility with
-              modern weaving machinery and an experienced team of artisans who
-              blend traditional craftsmanship with contemporary design
-              sensibilities.
+              Today, we operate with modern weaving machinery and a skilled team
+              of artisans who combine traditional craftsmanship with
+              contemporary designs.
             </p>
 
+            <p>We are committed to delivering:</p>
+
+            <ul>
+              <li>High-quality products</li>
+              <li>Consistent finishing</li>
+              <li>On-time delivery</li>
+            </ul>
+
             <p>
-              Every roll of lace that leaves our facility carries our commitment
-              to flawless finish, consistent quality, and timely delivery.
+              Every roll of lace reflects our dedication to quality,
+              reliability, and customer satisfaction.
             </p>
           </div>
         </div>

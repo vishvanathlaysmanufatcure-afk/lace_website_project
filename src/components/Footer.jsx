@@ -97,7 +97,7 @@ export default function Footer() {
 
           <div className="flex gap-3 items-start">
             <Mail className="text-[#b8926a]" size={18} />
-            <p className="text-sm">svltrims9@gmail.com</p>
+            <p className="text-sm">svltrimssurat9@gmail.com</p>
           </div>
         </div>
 
