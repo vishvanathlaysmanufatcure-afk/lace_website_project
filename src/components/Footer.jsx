@@ -90,7 +90,7 @@ export default function Footer() {
             <Phone className="text-[#b8926a]" size={18} />
             <p className="text-sm">
               +91 9016738889 <br />
-              +91 9621932071
+               +91 9621932071
             </p>
           </div>
 
