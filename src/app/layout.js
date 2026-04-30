@@ -15,11 +15,11 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  title: "Shree Visaalakshi Lace | Lace Manufacturer in Surat",
+  title: "Shree Visaalakshi Laces | Lace Manufacturer in Surat",
   description:
-    "Shree Visaalakshi Lace is a premium lace manufacturer in Surat offering high-quality lace designs for garments and fashion industries.",
+    "Shree Visaalakshi Laces is a premium lace manufacturer in Surat offering high-quality lace designs for garments and fashion industries.",
   keywords: [
-    "Shree Visaalakshi Lace",
+    "Shree Visaalakshi Laces",
     "lace manufacturer Surat",
     "lace suppliers India",
     "lace company Gujarat",
@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Shree Visaalakshi Lace",
+              name: "Shree Visaalakshi Laces",
               url: "https://www.lacemanufactures.in",
               logo: "https://www.lacemanufactures.in/images/svl_logo.png",
             }),
