@@ -18,7 +18,7 @@ export default function Footer() {
           />
 
           <h2 className="text-white text-xl font-semibold">
-            Shree Visaalakshi Lace
+            Shree Visaalakshi Laces
           </h2>
 
           <p className="text-xs text-[#b8926a] tracking-wide leading-relaxed">
@@ -90,7 +90,6 @@ export default function Footer() {
             <Phone className="text-[#b8926a]" size={18} />
             <p className="text-sm">
               +91 9016738889 <br />
-              +91 6387372844 <br />
               +91 9621932071
             </p>
           </div>
