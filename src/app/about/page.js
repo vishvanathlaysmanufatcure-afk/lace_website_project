@@ -82,7 +82,7 @@ export default function AboutPage() {
 
           <div className="space-y-6 text-gray-600 leading-relaxed">
             <p>
-              Founded in 2015, Shree Visaalakshi Lace started as a small unit in
+              Founded in 2015, Shree Visaalakshi Laces started as a small unit in
               Surat, India’s textile hub, producing high-quality cotton laces
               for local garment manufacturers.Over the years, we have expanded our product range to include a
               variety of lace designs and established strong connections with
