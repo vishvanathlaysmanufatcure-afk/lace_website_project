@@ -47,7 +47,7 @@ export default function Navbar() {
         {/* TEXT */}
         <div className="flex flex-col leading-tight">
           <span className="text-sm md:text-2xl font-semibold tracking-wide">
-            Shree Visaalakshi Lace
+            Shree Visaalakshi Laces
           </span>
         </div>
       </div>
