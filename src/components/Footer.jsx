@@ -104,7 +104,7 @@ export default function Footer() {
 
       {/* ================= BOTTOM ================= */}
       <div className="border-t border-gray-800 mt-12 pt-6 flex flex-col md:flex-row justify-between text-sm text-gray-500">
-        <p>© 2026 Shree Visaalakshi Lace. All rights reserved.</p>
+        <p>© 2026 Shree Visaalakshi Laces. All rights reserved.</p>
         <p className="mt-2 md:mt-0">Crafted with care in India 🇮🇳</p>
       </div>
     </footer>
